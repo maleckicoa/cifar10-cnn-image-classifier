@@ -1,24 +1,26 @@
 ## CIFAR-10 CNN Image Classifier
 <div align="center">
   <p>
-    <img src="other/test_images/cifar10_test_image_7406.png" alt="cifar10_test_image_7406" width="15%">
-    <img src="other/test_images/cifar10_test_image_7677.png" alt="cifar10_test_image_7677" width="15%">
-    <img src="other/test_images/cifar10_test_image_7877.png" alt="cifar10_test_image_7877" width="15%">
-    <img src="other/test_images/cifar10_test_image_7893.png" alt="cifar10_test_image_7893" width="15%">
-    <img src="other/test_images/cifar10_test_image_7971.png" alt="cifar10_test_image_7971" width="15%">
+    <img src="test_images/cifar10_test_image_1540.png" alt="cifar10_test_image_7406" width="15%">
+    <img src="test_images/cifar10_test_image_3015.png" alt="cifar10_test_image_7677" width="15%">
+    <img src="test_images/cifar10_test_image_5838.png" alt="cifar10_test_image_7877" width="15%">
+    <img src="test_images/cifar10_test_image_5752.png" alt="cifar10_test_image_7893" width="15%">
+    <img src="test_images/cifar10_test_image_6807.png" alt="cifar10_test_image_7971" width="15%">
   </p>
   <p>
-    <img src="other/test_images/cifar10_test_image_8515.png" alt="cifar10_test_image_8515" width="15%">
-    <img src="other/test_images/cifar10_test_image_9075.png" alt="cifar10_test_image_9075" width="15%">
-    <img src="other/test_images/cifar10_test_image_9219.png" alt="cifar10_test_image_9219" width="15%">
-    <img src="other/test_images/cifar10_test_image_9561.png" alt="cifar10_test_image_9561" width="15%">
-    <img src="other/test_images/cifar10_test_image_9715.png" alt="cifar10_test_image_9715" width="15%">
+    <img src="test_images/cifar10_test_image_7406.png" alt="cifar10_test_image_8515" width="15%">
+    <img src="test_images/cifar10_test_image_7877.png" alt="cifar10_test_image_9075" width="15%">
+    <img src="test_images/cifar10_test_image_8515.png" alt="cifar10_test_image_9219" width="15%">
+    <img src="test_images/cifar10_test_image_9075.png" alt="cifar10_test_image_9561" width="15%">
+    <img src="test_images/cifar10_test_image_6270.png" alt="cifar10_test_image_9715" width="15%">
   </p>
 </div>
 
 
 
 This repository contains a step-by-step exploration of convolutional neural network (CNN) architectures and transfer learning approaches for CIFAR-10 image classification, culminating in a best model that achieves around 88–89% test accuracy. The full experimentation process, code, and results are documented in the notebook `main.ipynb`.
+
+Demo: [CIFAR-10 Demo](https://maleckicoa.com/demo-apps/cifar-10).
 
 ### Dataset
 - **CIFAR-10**: 60,000 color images of size 32×32 in 10 classes (50,000 train / 10,000 test).
@@ -110,6 +112,9 @@ Confusion matrices and training/validation curves for key models are generated i
 
 ## Hardware
 Training was primarily run on Google Colab with a single A100 GPU. CPU runs are possible but much slower; GPU is recommended for the larger models and transfer learning stages.
+
+## Frontend
+To see the model in action, please visit the live demo: [CIFAR-10 Demo](https://maleckicoa.com/demo-apps/cifar-10).
 
 ## License
 MIT
