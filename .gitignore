@@ -1,8 +1,13 @@
 **/*.lock
 *.lock
+poetry.lock
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
+.venv/
+
+**/*.DS_Store
+*.DS_Store
